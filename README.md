@@ -1,4 +1,4 @@
-# Gavin's Portfolio
+# Working Copy of Gavin's Portfolio
 
 ## Project Description
 
@@ -16,9 +16,9 @@ This webpage was built to supersede my previous portfolio project. Improvements 
 
 ## Project Location
 
-* [GitHub Repo](https://github.com/Gavin867/Gavins_Portfolio)
-* [Published Site](https://gavin867.github.io/Gavins_Portfolio/)
+* [GitHub Repo](https://github.com/Gavin867/Gavins-Working-Portfolio)
+* [Published Site](https://gavin867.github.io/Gavins-Working-Portfolio/)
 
 ## Project Demo
 
-![Demo](https://github.com/Gavin867/Gavins_Portfolio/blob/main/Assets/Images/Readme/gcs-portfolio-demo)
+![Demo]()
