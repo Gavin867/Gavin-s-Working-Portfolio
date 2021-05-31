@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    width: 100%;
+    height: 100%;
+}
+
+.h1 {
+    font-size: 12pt;
+}
+
+.card-img-overlay {
+    font-size: 12pt;
+}
+
+.card-text {
+    margin: auto;
+}
+
+li {
+    font-size: 10pt;
+}
+
+h2, h3, h4 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.work-card {
+    background-color: #515960;
+}
+
+.card-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact {
+    font-size: 7pt;
+}
