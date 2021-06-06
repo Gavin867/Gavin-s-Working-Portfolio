@@ -9,211 +9,153 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css"
         integrity="sha384-8iuq0iaMHpnH2vSyvZMSIqQuUnQA7QM+f6srIdlgBrTSEyd//AWNMyEaSF2yPzNQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/Styles/reset.css">
     <link rel="stylesheet" href="./Assets/Styles/style.css">
-    <title>Gavin Calkins - Full Stack Dev</title>
+    <title>Gavin Calkins - Full Stack Developer</title>
 </head>
 
 <body>
-    <header>
-        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#about-me">About Me</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#work">Featured Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#contact-me">Contact Information</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./Assets/Documents/Resume - Gavin B. Calkins.pdf">Professional
-                            Resumé</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <main>
+        <div class="container py-4">
+            <header class="pb-3 mb-4 border-bottom"></header>
 
-        <section id="about-me" class="container-fluid">
-            <div class="card m-5">
-                <div class="card-header d-flex justify-content-between">
-                    <h2>About Me</h2>
+            <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+                <h1 class="navbar-brand">Gavin Calkins - Full Stack Developer
+                </h1>
 
-                    <a href="#nav" class="btn btn-dark btn-sm"><i class="fas fa-globe"></i> Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about-me">About Me</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#work">Featured Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact-me">Contact Information</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active"
+                                href="./Assets/Documents/Resume - Gavin B. Calkins.pdf">Professional
+                                Resumé</a>
+                        </li>
+                    </ul>
                 </div>
+            </nav>
 
-                <div class="card-body p-4">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <img id="portrait" class="img-fluid" src="./Assets/Images/Webpage/portrait.jpg"
-                                alt="An image of Gavin, circa Spring 2020.">
-                        </div>
+            <section id="about-me" class="container-fluid mt-5 mb-5">
+                <div>
+                    <div class="p-4">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-3 card p-5">
+                                <h2>
+                                    Langauges I speak...
+                                </h2>
 
-                        <div class="col-lg-9">
-                            <h2 class="card-title text-center font-weight-bold pt-3 mr-2  ">Welcome to my portfolio
-                                page!</h2>
+                                <ul class="row">
+                                    <li class="m-4">JavaScript ES6+</li>
 
-                            <p class="card-text pt-3 mr-2">
-                                Langauges I speak: JavaScript ES6+, HTML5, CSS3, SQL, NoSQL
-                            </p>
+                                    <li class="m-4">HTML5</li>
 
-                            <p class="card-text pt-3 mr-2">
-                                Applications I work with: Github, MongoDB, MySQL 
-                            </p>
+                                    <li class="m-4">CSS3</li>
 
-                            <p class="card-text pt-3 mr-2">
-                                Developer Tools I use: Express React Node, Handlebars, jQuery, Bootstrap, Sequelize, Mongoose, npm
-                            </p>
+                                    <li class="m-4">SQL</li>
+
+                                    <li class="m-4">NoSQL</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 card p-5">
+                                <h2>
+                                    Applications I work with...
+                                </h2>
+
+                                <ul class="row">
+                                    <li class="m-4">Github</li>
+
+                                    <li class="m-4">MongoDB</li>
+
+                                    <li class="m-4">MySQL</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 card p-5">
+                                <h2 class="mb-4">
+                                    Developer Tools I use...
+                                </h2>
+
+                                <ul class="row">
+                                    <li class="m-4">Express</li>
+
+                                    <li class="m-4">React</li>
+
+                                    <li class="m-4">Node</li>
+
+                                    <li class="m-4">Handlebars</li>
+
+                                    <li class="m-4">jQuery</li>
+
+                                    <li class="m-4">Bootstrap</li>
+
+                                    <li class="m-4">Sequelize</li>
+
+                                    <li class="m-4">Mongoose</li>
+
+                                    <li class="m-4">npm</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="work" class="container-fluid">
-            <div class="card m-5">
-                <div class="card-header d-flex justify-content-between mb-0">
-                    <h2>Projects</h2>
 
-                    <a href="#nav" class="btn btn-dark btn-sm"><i class="fas fa-globe"></i> Navbar</Nav></a>
-                </div>
+            <section id="work" class="container-fluid">
+                <div class="card m-2 mb-4">
+                    <div class="card-header d-flex justify-content-between">
+                        <h2>Featured Projects</h2>
 
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card mb-4">
-
-                                <img src="./Assets/Images/Webpage/meili.png" class="card-img-top"
-                                    alt="Screenshot of Application">
-
-                                <div class="card-body work-card">
-                                    <h4 class="card-title text-center text-light">
-                                        Meili <i class="fas fa-hiking"></i>
-                                    </h4>
-
-                                    <p class="card-text text-center ml-3 mr-3">
-                                        An application that uses mySQL, Sequelize, Node.js and Handlebars to help you
-                                        inventory and pack your outdoor gear.
-                                    </p>
-
-                                    <div class="text-center">
-                                        <a href="https://github.com/Gavin867/Project_2"
-                                            class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
-                                            GITHUB REPOSITORY
-                                        </a>
-
-                                        <a href="https://secret-harbor-98103.herokuapp.com/ "
-                                            class="btn btn-primary btn-sm mt-3">
-                                            DEPLOYED APPLICATION
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card mb-4">
-
-                                <img src="./Assets/Images/Webpage/cocktail-generator.png" class="card-img-top"
-                                    alt="Screenshot of Application">
-
-                                <div class="card-body work-card">
-                                    <h4 class="card-title text-center text-light">
-                                        The Cocktail Generator <i class="fas fa-glass-martini"></i>
-                                    </h4>
-
-                                    <p class="card-text text-center ml-3 mr-3">
-                                        A group project which queries weather,time and a cocktail database APIs to
-                                        suggest recipes.
-                                    </p>
-
-                                    <div class="text-center">
-                                        <a href="https://github.com/zehrl/cocktail-generator"
-                                            class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
-                                            GITHUB REPOSITORY
-                                        </a>
-
-                                        <a href="https://zehrl.github.io/cocktail-generator/"
-                                            class="btn btn-primary btn-sm mt-3">
-                                            DEPLOYED APPLICATION
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card mb-4">
-                                <img src="./Assets/Images/Webpage/flying-circus-tracker.png" class="card-img-top"
-                                    alt="Screenshot of Application">
-
-                                <div class="card-body work-card">
-                                    <h4 class="card-title text-center text-light">
-                                        The Flying Circus Tracker <i class="fas fa-database"></i>
-                                    </h4>
-
-                                    <p class="card-text text-center ml-3 mr-3">
-                                        A command line interface application which uses mySQL, Node, Util and Inquirer
-                                        to store and manipulate organizational data.
-                                    </p>
-
-                                    <div class="text-center">
-                                        <a href="https://github.com/Gavin867/The_Flying_Circus_Tracker"
-                                            class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
-                                            GITHUB REPOSITORY
-                                        </a>
-
-                                        <a href="https://github.com/Gavin867/The_Flying_Circus_Tracker"
-                                            class="btn btn-primary btn-sm mt-3">
-                                            DEPLOYED APPLICATION
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="#nav" class="btn btn-dark btn-lg"><i class="fas fa-globe"></i> Nav</Nav></a>
                     </div>
 
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="card mb-4">
-
-                                    <img src="./Assets/Images/Webpage/hals-notepad.png" class="card-img-top"
+                                    <img src="./Assets/Images/Webpage/meili.png" class="card-img-top"
                                         alt="Screenshot of Application">
 
                                     <div class="card-body work-card">
                                         <h4 class="card-title text-center text-light">
-                                            HAL's Notepad <i class="fas fa-server"></i>
+                                            Meili <i class="fas fa-hiking"></i>
                                         </h4>
 
                                         <p class="card-text text-center ml-3 mr-3">
-                                            An application that uses express.js and JSON to store your notes.
+                                            An application that uses mySQL, Sequelize, Node.js and Handlebars to help
+                                            you
+                                            inventory and pack your outdoor gear.
                                         </p>
 
                                         <div class="text-center">
-                                            <a href="https://github.com/Gavin867/HALs_Notepad"
+                                            <a href="https://github.com/Gavin867/Meili"
                                                 class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
                                                 GITHUB REPOSITORY
                                             </a>
 
-                                            <a href="https://hals-notepad.herokuapp.com/"
+                                            <a href="https://secret-harbor-98103.herokuapp.com/ "
                                                 class="btn btn-primary btn-sm mt-3">
                                                 DEPLOYED APPLICATION
                                             </a>
@@ -224,26 +166,27 @@
 
                             <div class="col-lg-4">
                                 <div class="card mb-4">
-                                    <img src="./Assets/Images/Webpage/weather-dashboard.png" class="card-img-top"
+
+                                    <img src="./Assets/Images/Webpage/cocktail-generator.png" class="card-img-top"
                                         alt="Screenshot of Application">
 
                                     <div class="card-body work-card">
                                         <h4 class="card-title text-center text-light">
-                                            The Weather Brief <i class="fas fa-cloud-showers-heavy"></i>
+                                            The Cocktail Generator <i class="fas fa-glass-martini"></i>
                                         </h4>
 
                                         <p class="card-text text-center ml-3 mr-3">
-                                            A weather application using ajax calls to openweathermap
-                                            api and template literals.
+                                            A group project which queries weather,time and a cocktail database APIs to
+                                            suggest recipes.
                                         </p>
 
                                         <div class="text-center">
-                                            <a href="https://github.com/Gavin867/The_Weather_Brief"
+                                            <a href="https://github.com/zehrl/cocktail-generator"
                                                 class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
                                                 GITHUB REPOSITORY
                                             </a>
 
-                                            <a href="https://gavin867.github.io/The_Weather_Brief/"
+                                            <a href="https://zehrl.github.io/cocktail-generator/"
                                                 class="btn btn-primary btn-sm mt-3">
                                                 DEPLOYED APPLICATION
                                             </a>
@@ -254,26 +197,27 @@
 
                             <div class="col-lg-4">
                                 <div class="card mb-4">
-                                    <img src="./Assets/Images/Webpage/workday-scheduler.png" class="card-img-top"
+                                    <img src="./Assets/Images/Webpage/flying-circus-tracker.png" class="card-img-top"
                                         alt="Screenshot of Application">
 
                                     <div class="card-body work-card">
                                         <h4 class="card-title text-center text-light">
-                                            Workday Scheduler <i class="fas fa-clock"></i>
+                                            The Flying Circus Tracker <i class="fas fa-database"></i>
                                         </h4>
 
                                         <p class="card-text text-center ml-3 mr-3">
-                                            A repititive task scheduler making use of moment.js, local
-                                            storage and javascript-fueled dynamic css.
+                                            A command line interface application which uses mySQL, Node, Util and
+                                            Inquirer
+                                            to store and manipulate organizational data.
                                         </p>
 
                                         <div class="text-center">
-                                            <a href="https://github.com/Gavin867/05-workday-scheduler"
+                                            <a href="https://github.com/Gavin867/The_Flying_Circus_Tracker"
                                                 class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
                                                 GITHUB REPOSITORY
                                             </a>
 
-                                            <a href="https://gavin867.github.io/05-workday-scheduler/"
+                                            <a href="https://github.com/Gavin867/The_Flying_Circus_Tracker"
                                                 class="btn btn-primary btn-sm mt-3">
                                                 DEPLOYED APPLICATION
                                             </a>
@@ -283,155 +227,150 @@
                             </div>
                         </div>
 
-                        <div class="row mb-3">
-                            <div class="col-lg-4">
-                                <div class="card card-height mb-4">
-                                    <img src="./Assets/Images/Webpage/meet-your-team.png" class="card-img-top"
-                                        alt="Screenshot of Application">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card mb-4">
 
-                                    <div class="card-body work-card">
-                                        <h4 class="card-title text-center text-light pl-4 pr-4">
-                                            Meet Your Team <i class="fas fa-clipboard"></i>
-                                        </h4>
+                                        <img src="./Assets/Images/Webpage/hals-notepad.png" class="card-img-top"
+                                            alt="Screenshot of Application">
 
-                                        <p class="card-text text-center ml-3 mr-3">
-                                            An inquirer promp application which generates an html page with office mate
-                                            contact information.
-                                        </p>
+                                        <div class="card-body work-card">
+                                            <h4 class="card-title text-center text-light">
+                                                HAL's Notepad <i class="fas fa-server"></i>
+                                            </h4>
 
-                                        <div class="text-center">
-                                            <a href="https://github.com/Gavin867/Meet_Your_Team"
-                                                class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
-                                                GITHUB REPOSITORY
-                                            </a>
+                                            <p class="card-text text-center ml-3 mr-3">
+                                                An application that uses express.js and JSON to store your notes.
+                                            </p>
 
-                                            <a href="https://github.com/Gavin867/Meet_Your_Team"
-                                                class="btn btn-primary btn-sm mt-3">
-                                                DEPLOYED APPLICATION
-                                            </a>
+                                            <div class="text-center">
+                                                <a href="https://github.com/Gavin867/HALs_Notepad"
+                                                    class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
+                                                    GITHUB REPOSITORY
+                                                </a>
+
+                                                <a href="https://hals-notepad.herokuapp.com/"
+                                                    class="btn btn-primary btn-sm mt-3">
+                                                    DEPLOYED APPLICATION
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-4">
-                                <div class="card mb-4">
-                                    <img src="./Assets/Images/Webpage/password-generator.png" class="card-img-top"
-                                        alt="Screenshot of Application">
-                                    <div class="card-body work-card">
+                                <div class="col-lg-4">
+                                    <div class="card mb-4">
+                                        <img src="./Assets/Images/Webpage/weather-dashboard.png" class="card-img-top"
+                                            alt="Screenshot of Application">
 
-                                        <h4 class="card-title text-center text-light">
-                                            Password Generator <i class="fas fa-key"></i>
-                                        </h4>
+                                        <div class="card-body work-card">
+                                            <h4 class="card-title text-center text-light">
+                                                The Weather Brief <i class="fas fa-cloud-showers-heavy"></i>
+                                            </h4>
 
-                                        <p class="card-text text-center ml-3 mr-3">
-                                            A javascript-powered randomized character generator using
-                                            arrays and math.random.
-                                        </p>
+                                            <p class="card-text text-center ml-3 mr-3">
+                                                A weather application using ajax calls to openweathermap
+                                                api and template literals.
+                                            </p>
 
-                                        <div class="text-center">
-                                            <a href="https://github.com/Gavin867/03-password-generator"
-                                                class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
-                                                GITHUB REPOSITORY
-                                            </a>
+                                            <div class="text-center">
+                                                <a href="https://github.com/Gavin867/The_Weather_Brief"
+                                                    class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
+                                                    GITHUB REPOSITORY
+                                                </a>
 
-                                            <a href="https://gavin867.github.io/03-password-generator/"
-                                                class="btn btn-primary btn-sm mt-3">
-                                                DEPLOYED APPLICATION
-                                            </a>
+                                                <a href="https://gavin867.github.io/The_Weather_Brief/"
+                                                    class="btn btn-primary btn-sm mt-3">
+                                                    DEPLOYED APPLICATION
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-4">
-                                <div class="card card-height mb-4">
-                                    <img src="./Assets/Images/Webpage/the-gin-quiz.png" class="card-img-top"
-                                        alt="Screenshot of Application">
+                                <div class="col-lg-4">
+                                    <div class="card card-height mb-4">
+                                        <img src="./Assets/Images/Webpage/the-gin-quiz.png" class="card-img-top"
+                                            alt="Screenshot of Application">
 
-                                    <div class="card-body work-card">
-                                        <h4 class="card-title text-center text-light pl-4 pr-4">
-                                            The Gin Quiz <i class="fas fa-wine-bottle"></i>
-                                        </h4>
+                                        <div class="card-body work-card">
+                                            <h4 class="card-title text-center text-light pl-4 pr-4">
+                                                The Gin Quiz <i class="fas fa-wine-bottle"></i>
+                                            </h4>
 
-                                        <p class="card-text text-center ml-3 mr-3">
-                                            A fun quiz on gin cocktails powered by plain javascript, local
-                                            storage and styled with scratch css.
-                                        </p>
+                                            <p class="card-text text-center ml-3 mr-3">
+                                                A fun quiz on gin cocktails powered by plain javascript, local
+                                                storage and styled with scratch css.
+                                            </p>
 
-                                        <div class="text-center">
-                                            <a href="https://github.com/Gavin867/04-the-gin-quiz"
-                                                class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
-                                                GITHUB REPOSITORY
-                                            </a>
+                                            <div class="text-center">
+                                                <a href="https://github.com/Gavin867/04-the-gin-quiz"
+                                                    class="btn btn-primary btn-sm mt-3 pl-4 pr-4">
+                                                    GITHUB REPOSITORY
+                                                </a>
 
-                                            <a href="https://gavin867.github.io/04-the-gin-quiz/"
-                                                class="btn btn-primary btn-sm mt-3">
-                                                DEPLOYED APPLICATION
-                                            </a>
+                                                <a href="https://gavin867.github.io/04-the-gin-quiz/"
+                                                    class="btn btn-primary btn-sm mt-3">
+                                                    DEPLOYED APPLICATION
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-        </section>
+            </section>
 
-        <section id="contact-me" class="container-fluid">
-            <div class="card m-3 ml-5 mr-5">
-                <div class="card-header d-flex justify-content-between">
-                    <h2>Contact</h2>
+            <section id="contact-me" class="container-fluid">
+                <div class="card m-2 mt-4 mb-4">
+                    <div class="card-header d-flex justify-content-between">
+                        <h2>Contact Me</h2>
 
-                    <a href="#nav" class="btn btn-dark btn-sm"><i class="fas fa-globe"></i> Navbar</Nav></a>
-                </div>
+                        <a href="#nav" class="btn btn-dark btn-lg"><i class="fas fa-globe"></i> Nav</Nav></a>
+                    </div>
 
-                <div class="card-body">
-                    <div class="row text-center pt-5 pb-5">
-                        <div class="col-lg-3">
-                            <a href="tel:2068674050" class="btn btn-dark btn-lg pl-5 pr-5 pt-3 pb-3 mb-3">
-                                <i class="fas fa-phone fa-5x mr-2 ml-2"></i>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <a href="tel:2068674050" class="col-lg-3 btn btn-dark btn-lg">
+                                <i class="fas fa-phone fa-5x mt-4 mb-4"></i>
 
-                                <p class="mt-3 contact">206-867-4050</p>
+                                <p class="contact mb-4">206-867-4050</p>
                             </a>
-                        </div>
 
-                        <div class="col-lg-3">
-                            <a href="mailto:gavin.calkins@gmail.com"
-                                class="btn btn-dark btn-lg pl-5 pr-5 pt-3 pb-3 mb-3">
+                            <a href="mailto:gavin.calkins@gmail.com" class="col-lg-3 btn btn-dark btn-lg">
 
-                                <i class="fas fa-envelope fa-5x mr-2 ml-2"></i>
+                                <i class="fas fa-envelope fa-5x mt-4 mb-4"></i>
 
-                                <p class="mt-3 contact">
+                                <p class="contact mb-4">
                                     gavin.calkins@gmail.com
                                 </p>
                             </a>
-                        </div>
 
-                        <div class="col-lg-3">
-                            <a href="https://github.com/Gavin867" class="btn btn-dark btn-lg pl-5 pr-5 pt-3 pb-3 mb-3">
+                            <a href="https://github.com/Gavin867" class="col-lg-3 btn btn-dark btn-lg">
 
-                                <i class="fab fa-github fa-5x mr-1 ml-1"></i>
+                                <i class="fab fa-github fa-5x mt-4 mb-4"></i>
 
-                                <p class="mt-3 contact">
+                                <p class="contact mb-4">
                                     https://github.com/Gavin867
                                 </p>
                             </a>
-                        </div>
 
-                        <div class="col-lg-3">
-                            <a href="https://www.linkedin.com/in/gavincalkins" class="btn btn-dark btn-lg p-3">
-                                <i class="fab fa-linkedin-in fa-5x"></i>
+                            <a href="https://www.linkedin.com/in/gavincalkins" class="col-lg-3 btn btn-dark btn-lg">
+                                <i class="fab fa-linkedin-in fa-5x mt-4 mb-4"></i>
 
-                                <p class="mt-3 contact mr-2 ml-2">
+                                <p class="contact mb-4">
                                     https://www.linkedin.com/in/gavincalkins
                                 </p>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <footer class="pt-3 mt-4 text-muted border-top"></footer>
+        </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
