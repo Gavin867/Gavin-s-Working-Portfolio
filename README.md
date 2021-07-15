@@ -13,4 +13,4 @@ Click the 'Published Site' link to get started.
 
 ## Project Demo
 
-![Demo](https://github.com/Gavin867/Gavins_Portfolio/blob/main/Assets/Images/Readme/gp-demo.gif)
+![Demo](./assets/images/readme/gp-demo.gif)
